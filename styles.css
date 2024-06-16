@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f085;
+    margin: 0;
+    padding: 20px;
+}
+
+canvas {
+    border: 1px solid rgb(11, 11, 11);
+    width: 100%; /* Ajusta el tamaño del canvas */
+    height: auto; /* Mantiene la proporción del lienzo */
+}
+
+
+.container {
+    max-width: 1200px; /* Aumenta el ancho máximo */
+    margin: auto;
+    background: rgb(166, 227, 251);
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+}
+
+
+#originalCanvas, #decomposedCanvas {
+    display: inline-block; /* Muestra los lienzos en línea */
+    vertical-align: top; /* Alineación superior */
+}
+
+input[type="file"] {
+    margin: 10px 0;
+}
+
+#decomposeButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: rgb(7, 7, 118);
+}
